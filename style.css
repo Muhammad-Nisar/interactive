@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "overpass","sansarif";
+  font-size: 15px;
+  background-color: hsl(0, 0%, 8%);
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+}
+ul{
+  list-style-type: none;
+}
+button{
+  font-family: inherit;
+}
+.main-container,.Thank-you{
+  background-color: hsl(0, 0%, 41%);
+  padding: 1.5rem;
+  border-radius: 0.625rem;
+  
+}
+.main-container img{
+  background-color: hsl(213, 20%, 22%);
+  padding: .2rem;
+  border-radius: 50%;
+  
+}
+.main-container h1{
+  color: #fff;
+  margin: 2rem 0rem 1rem;
+}
+.main-container p{
+  color:  hsl(217, 12%, 63%);
+  margin-bottom: 2rem;
+}
+.main-container ul{
+  display: flex;
+  justify-content: space-between;
+}
+.main-container ul li button{
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(213, 20%, 22%);
+  padding-top: .2rem;
+  color:#fff;
+  cursor: pointer;
+  transition: .3s;
+  margin-bottom: 1rem;
+}
+.main-container ul li button:hover{
+  background-color: hsl(25,97%,53%);
+}
+.main-container ul li button:focus{
+  background-color: hsl(217,12%,63%);
+}
+.btn-submit{
+  background-color: hsl(25,97%,53%);
+  width: 100%;
+  padding:.8rem 0 .6rem;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  transition: .3s;
+}
+.btn-submit:hover{
+  background-color: #fff;
+  color:hsl(25,97%,53%);
+}
+.Thank-you{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Thank-you img{
+  display: block;
+  margin:0,auto,2rem;
+}
+.Thank-you p.opt{
+  color: hsl(25,97%,53%);
+  background-color: hsl(213,20%,22%);
+  border-radius: 30px;
+  font-size: .9rem;
+  padding: .2rem .5rem 0;
+  margin-bottom: 1rem;
+}
+.Thank-you h2{
+  color:#fff;
+  margin-bottom: 1rem;
+}
+.Thank-you p{
+  color:hsl(217,12%,63%);
+  margin-bottom:2rem;
+}
+.hidden{
+  display: none;
+}
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+.attribution a{
+  color:hsl(25,97%,53%);
+}
